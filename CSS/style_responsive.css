@@ -1,0 +1,153 @@
+
+.flex__item{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.wrap{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.practice__card {
+  width: 100%;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card__img img {
+  width: 100%;
+}
+
+.card__content {
+  padding: 15px 25px;
+}
+
+.card__ttl {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.card__cat {
+  padding: 5px 10px;
+  background: #008888;
+  margin-bottom: 15px;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+}
+
+.tag {
+  font-size: 14px;
+  text-align: right;
+}
+
+.card__tag {
+  display: inline-block;
+  color: #008888;
+}
+
+.card__date {
+  display: inline-block;
+  margin-left: 20px;
+  color: #888888;
+}
+
+.flex__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width:768px) {
+  .practice__card {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .practice__card {
+    width: 30%;
+  }
+}
+
+/* css設計 */
+.top{
+  width: 760px;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: left; */
+  box-shadow: 0 0 6px #eeeeee;
+}
+
+.top__img{
+  width: 40%;
+  /* height: 100%; */
+}
+.top__img img{
+  width: 100%;
+  vertical-align: top;
+}
+
+.top__content{
+  padding: 15px;
+  /* position: relative;
+  left: -200px; */
+}
+
+.top__content-title{
+  /* text-align: left; */
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.top__content-tag{
+  font-size: 14px;
+}
+
+.top__content-tag-p{
+  display: inline-block;
+}
+.top__content-tag-p--red{
+  /* display: inline-block; */
+  margin-left: 50px;
+  color: red;
+}
+
+  /* <!-- CSS模範 --> */
+  body {
+  width: 760px;
+  margin: 100px auto;
+}
+.card {
+  box-shadow: 0 0 6px #eeeeee;
+  display: flex;
+}
+.card__img {
+  width: 40%;
+}
+.card__img img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.card__content {
+  padding: 15px;
+}
+
+.card__content-ttl {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.card__content-tag {
+  font-size: 14px;
+  display: inline-block;
+}
+
+.card__content-tag--red {
+  color: red;
+  margin-left: 40px;
+}

@@ -1,0 +1,89 @@
+.text{
+  font-size: 14px;
+}
+.emphasis{
+  font-size: 32px;
+  font-weight: bold;
+  color: red;
+}
+
+span.text{
+  font-size: 14px;
+  font-weight: bold;
+  background: linear-gradient(transparent 70%, yellow 70%);
+}
+
+.at{
+  color: black;
+}
+
+.ar{
+  text-align: center;
+}
+.arr {
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: dashed 3px black;
+  padding-bottom: 1px;
+}
+
+.dd{
+  background-color: rgb(196, 196, 196);
+  width: 200px;
+  border-left: solid 5px black;
+  font-weight: bolder;
+  padding: 5px;
+  text-align: center;
+}
+
+.ee{
+  position: relative;
+  display: inline-block;
+  padding: 0px 55px;
+}
+
+.ee::before, .ee::after{
+  content:"";
+  position: absolute;
+  top: 50%;
+  width: 45px;
+  display: inline-block;
+  height: 1px;
+  background-color: black;
+}
+
+.ee::before{
+  left: 0px;
+}
+
+.ee::after{
+  right: 0px;
+}
+
+.hov{
+  background-color: blue;
+  width: 100px;
+  transition-duration: 3s;
+}
+.hov :hover{
+  width: 300px;
+  background-color: blueviolet;
+}
+
+.tt{
+  background-color: aqua;
+}
+main{
+  display: flex;
+  height: 500px;
+  background-color: blueviolet;
+}
+
+main article{
+  width: 70%;
+}
+
+main aside{
+  width: 30%;
+  background-color: blue;
+}

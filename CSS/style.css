@@ -1,0 +1,117 @@
+/* div > span {
+  color: red;
+}
+
+p + span {
+  color: blue;
+}
+
+p:first-child {
+  color: aqua;
+}
+
+p:last-child {
+  color: pink;
+}
+
+span:last-child {
+  color: red;
+}
+
+ul :first-child {
+  color: red;
+}
+
+h2:first-of-type {
+  color: blueviolet;
+} */
+
+/* li:nth-child(3) {
+  color: green;
+}
+
+p:nth-child(3) {
+  color: blueviolet;
+} */
+
+/* p:nth-of-type(2n) {
+  color: red;
+} */
+/* * {
+  line-height: 1;
+}
+
+.number__child {
+  padding-left: 40px;
+}
+
+/* p:nth-child(5) {
+  color: red;
+}
+
+p:nth-child(11) {
+  color: red;
+}
+
+.number__child {
+  color: blue;
+}
+
+.number__child:nth-child(3n-2) {
+  color: black;
+} */
+
+/* .number__parent:nth-of-type(3n) {
+  color: red;
+}
+
+.number__child:nth-of-type(n + 2) {
+  color: blue;
+}
+
+.example1 {
+  display: inline;
+  background-color: blue;
+}
+.example2 {
+  display: block;
+  background-color: blueviolet;
+}
+
+/* .example3 {
+  background-color: blue;
+} */
+
+/* .example3,
+.example4 {
+  display: inline-block;
+  background-color: brown;
+} */
+
+/* p {
+  font-family: "Gorditas", cursive;
+  font-size: 60px;
+} */
+/*
+h2 {
+  font-family: "Noto Serif JP", serif;
+}
+
+.if {
+  text-align: center;
+}
+
+.number__child {
+  width: 50%;
+  height: 50px;
+  background: linear-gradient(135deg, #ff34ff, #8646ff);
+} */
+
+body {
+  background-image: url("../img/red.jpg");
+}
+
+.if {
+  background-color: blueviolet;
+}
+
